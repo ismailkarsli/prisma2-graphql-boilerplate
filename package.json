@@ -1,0 +1,25 @@
+{
+  "name": "prisma2-graphql-sdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -e js,json,graphql --exec node ."
+  },
+  "dependencies": {
+    "@paljs/plugins": "^2.5.2",
+    "@prisma/client": "^2.10.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
+    "graphql-tools": "^7.0.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
